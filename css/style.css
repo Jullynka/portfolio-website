@@ -1,0 +1,16 @@
+/*
+Colors used:
+Primary Color (purple): #561D49
+Secondary Color (light purple): #98185F
+Background Color (white): #FFFFFF
+Headlines Color (black): #000000
+Text Color (dark grey): #222222
+*/
+
+body {
+  background-color: lightgrey;
+  font-family: 'Karla', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik, sans-serif;'
+}
