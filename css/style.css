@@ -2,8 +2,9 @@
 Colors used:
 Primary Color:  #CE2180
 Secondary Color: #632680
+Tertiary Color: #44DDCB
 Background Color (white): #FFFFFF
-Text Colors (dark grey, black): #606060; #313131; #474747;
+Text Colors (dark grey, black): #606060; #313131; #474747; #ffffff
 */
 
 body {
@@ -118,4 +119,10 @@ text-decoration: none;
   background-color: #CE2180;
   opacity: 1;
   color:#ffffff !important;
+}
+
+.button.contact:active {
+ background-color: #ffffff;
+ color: #44DDCB !important;
+  border: 2px solid #44DDCB;
 }
