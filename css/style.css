@@ -1,10 +1,9 @@
 /*
 Colors used:
-Primary Color (purple): #561D49
-Secondary Color (light purple): #98185F
+Primary Color:  #CE2180
+Secondary Color: #632680
 Background Color (white): #FFFFFF
-Headlines Color (black): #000000
-Text Color (dark grey): #222222
+Text Colors (dark grey, black): #606060; #313131; #474747;
 */
 
 body {
@@ -63,4 +62,60 @@ h3 {
 h4 {
   font-size: 1em;
 }
+}
+
+
+a{
+  color: #CE2180;
+  text-decoration:none;
+  font-weight: 400;
+}
+
+a:visited {
+  color: #632680;
+}
+
+a:hover,
+a:focus {
+  color: red;
+  text-decoration: underline;
+}
+
+  a:active {
+    color: #44DDCB;
+  }
+
+.button {
+  display: inline-block;
+  background-color: #CE2180;
+  color: #ffffff !important;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #632680;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+opacity:   0.8;
+text-decoration: none;
+}
+
+.button:active {
+  background-color: #44DDCB;
+  border-bottom: 2px solid #00B2AC;
+}
+
+
+.button.contact {
+  background-color: transparent;
+  color: #CE2180 !important;
+  text-transform: uppercase;
+  border: 2px solid #CE2180;
+}
+
+.button.contact:hover{
+  background-color: #CE2180;
+  opacity: 1;
+  color:#ffffff !important;
 }
