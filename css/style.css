@@ -50,26 +50,12 @@ img {
   width: 100%
 }
 
-@media screen and (max-width: 767px) {
-  h1 {
-    font-size:1.8em;
-  }
-  h2 {
-    font-size:1.6em;
-  }
-h3 {
-  font-size: 1.2em;
-}
-h4 {
-  font-size: 1em;
-}
-}
-
 
 a{
   color: #CE2180;
   text-decoration:none;
   font-weight: 400;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -78,8 +64,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: red;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
   a:active {
@@ -125,4 +110,19 @@ text-decoration: none;
  background-color: #ffffff;
  color: #44DDCB !important;
   border: 2px solid #44DDCB;
+}
+
+@media screen and (min-width: 767px) {
+  h1 {
+    font-size:1.8em;
+  }
+  h2 {
+    font-size:1.6em;
+  }
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-size: 1em;
+}
 }
