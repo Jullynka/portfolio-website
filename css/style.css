@@ -7,6 +7,7 @@ Background Color (white): #FFFFFF
 Text Colors (dark grey, black): #606060; #313131; #474747; #ffffff
 */
 
+/* Global Styles============================*/
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -15,67 +16,58 @@ body {
   line-height: 1.8;
   color: #606060;
 }
-h1, h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #313131;
-}
-
-h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #474747;
-}
 
 h1 {
   font-size: 2.5em;
   font-weight: 700;
+  color:  #313131;
 }
 
 h2 {
   font-size: 2em;
   font-weight: 700;
+  color:  #313131;
 }
 
 h3 {
   font-size: 1.25em;
   font-weight: 600;
+  color:  #474747;
 }
 
 h4 {
   font-size: 1em;
   font-weight: 600;
+  color:  #474747;
 }
 img {
-  width: 100%
+  width: 100%;
 }
 
-
+/* Links and Buttons ============================ */
 a{
   color: #CE2180;
-  text-decoration:none;
-  font-weight: 400;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #632680;
+  color: #CE2180;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
+  color: #632680;
 }
 
-  a:active {
-    color: #44DDCB;
-  }
+a:active {
+color: #44DDCB;
+}
 
 .button {
   display: inline-block;
   background-color: #CE2180;
   color: #ffffff !important;
-  font-weight: 400;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #632680;
@@ -91,7 +83,6 @@ text-decoration: none;
   background-color: #44DDCB;
   border-bottom: 2px solid #00B2AC;
 }
-
 
 .button.contact {
   background-color: transparent;
@@ -112,17 +103,14 @@ text-decoration: none;
   border: 2px solid #44DDCB;
 }
 
-@media screen and (min-width: 767px) {
-  h1 {
-    font-size:1.8em;
-  }
-  h2 {
-    font-size:1.6em;
-  }
-h3 {
-  font-size: 1.2em;
-}
-h4 {
-  font-size: 1em;
-}
-}
+/* Header
+==================================== */
+
+/* Main
+==================================== */
+
+/* Footer
+==================================== */
+
+/* Containers & Columns
+==================================== */
