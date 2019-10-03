@@ -22,19 +22,19 @@ body {
 }
 
 h1 {
-  font-size: 2.25em;
+  font-size: 1.85em;
   font-weight: 700;
   color:  #313131;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 700;
-  color:  #313131;
+  color:  #474747;
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: 600;
   color:  #474747;
 }
@@ -49,13 +49,14 @@ img {
 }
 
 @media (min-width:768px) {
-  body {font-size:17px;}
+  body {font-size:18px;}
 }
 
 @media (min-width:1200px) {
-  body {font-size:18px
+  body {font-size:19px
   }
 }
+
 
 /* Links and Buttons ============================ */
 a{
@@ -76,8 +77,6 @@ a:focus {
 a:active {
 color: #44DDCB;
 }
-
-
 
 .button {
   display: inline-block;
@@ -128,8 +127,18 @@ header nav ul {
   list-style-type: none;
 }
 
+.center {
+  text-align: center;
+}
 /* Main
 ==================================== */
+.row {
+  margin: 25px 0;
+}
+
+#work .row {
+  padding-bottom: 25px; border-bottom: 1px solid #606060;
+}
 
 /* Footer
 ==================================== */
@@ -142,5 +151,3 @@ header nav ul {
 .container {
   padding: 0 15px;
 }
-
-finished on Creating CSS Layout, adding containers
