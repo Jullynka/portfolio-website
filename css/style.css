@@ -8,6 +8,10 @@ Text Colors (dark grey, black): #606060; #313131; #474747; #ffffff
 */
 
 /* Global Styles============================*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -73,9 +77,7 @@ a:active {
 color: #44DDCB;
 }
 
-header nav a {
-  text-decoration: none;
-}
+
 
 .button {
   display: inline-block;
@@ -118,6 +120,13 @@ opacity:   0.8;
 
 /* Header
 ==================================== */
+header nav a {
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style-type: none;
+}
 
 /* Main
 ==================================== */
@@ -127,3 +136,11 @@ opacity:   0.8;
 
 /* Containers & Columns
 ==================================== */
+
+/* Layout styling
+=====================================*/
+.container {
+  padding: 0 15px;
+}
+
+finished on Creating CSS Layout, adding containers
