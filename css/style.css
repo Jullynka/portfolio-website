@@ -48,6 +48,7 @@ img {
   width: 100%;
 }
 
+/* 1. I adjusted the font sizes, just trying what works better for small screen.*/
 @media (min-width:768px) {
   body {font-size:18px;}
 }
@@ -124,6 +125,7 @@ header {
   text-align: center;
   padding: 10px 0;
   position: fixed;
+  width: 100%;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.75);
 box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
@@ -141,6 +143,7 @@ nav > ul {
 nav > ul > li {
   display: inline-block;
 }
+
 
 nav > ul > li >  a {
   padding: 0 15px;
@@ -200,11 +203,19 @@ header nav ul {
 }
 
 main {
-  padding-top: 136px;
+  padding-top: 108px;
 }
 /* Footer
 ==================================== */
+#contact > .container {
+  background-color: #ECFCFB;
+  padding:
+}
 
+.copyright {
+ display: inline-block;
+ width: 100%
+}
 /* Containers & Columns
 ==================================== */
 
