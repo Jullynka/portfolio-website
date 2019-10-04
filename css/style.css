@@ -138,11 +138,19 @@ nav > ul > li {
   display: inline-block;
 }
 
-nav > ul> li >  a {
+nav > ul > li >  a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
   color: blue;       /*This doesn't work for some reason, the color of the navigation links doesn't change to blue */
+}
+
+nav > ul > li> a:visited {
+  color: blue;
+}
+
+nav > ul > li> a:hover, a:focus {
+  color: green;
 }
 
 
