@@ -120,7 +120,7 @@ opacity:   0.8;
 /* Header
 ==================================== */
 header {
-  background-color: yellow;
+  background-color: #ECFCFB;
   text-align: center;
   padding: 10px 0;
 }
@@ -179,6 +179,14 @@ header nav ul {
 
 /* Main
 ==================================== */
+#hero {
+  background-color: #ECFCFB;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%
+}
+
+
 .row {
   margin: 25px 0;
 }
