@@ -123,6 +123,10 @@ header {
   background-color: #ECFCFB;
   text-align: center;
   padding: 10px 0;
+  position: fixed;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
 }
 
 header nav {
@@ -195,6 +199,9 @@ header nav ul {
   padding-bottom: 25px; border-bottom: 1px solid #606060;
 }
 
+main {
+  padding-top: 136px;
+}
 /* Footer
 ==================================== */
 
