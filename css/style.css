@@ -119,17 +119,52 @@ opacity:   0.8;
 
 /* Header
 ==================================== */
-header nav a {
-  text-decoration: none;
+header {
+  background-color: yellow;
+  text-align: center;
+  padding: 10px 0;
 }
+
+header nav {
+  text-align: left;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul> li >  a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: blue;       /*This doesn't work for some reason, the color of the navigation links doesn't change to blue */
+}
+
+
+
+ /*Or could I use this code instead of the one above to remove bullet points? It worked when used
 
 header nav ul {
   list-style-type: none;
 }
 
+*/
+
 .center {
   text-align: center;
-}
+} /*Doesn't seem to work for Logo if I put "center" class there */
+
+.logo {
+ text-align: center;
+} /*Doesn't seem to work for Logo */
+
+
+
 /* Main
 ==================================== */
 .row {
