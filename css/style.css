@@ -153,6 +153,10 @@ nav > ul > li> a:hover, a:focus {
   color: green;
 }
 
+nav {
+  display: inline-block;
+  width: 100%;
+}
 
 
  /*Or could I use this code instead of the one above to remove bullet points? It worked when used
