@@ -58,7 +58,6 @@ img {
   }
 }
 
-
 /* Links and Buttons ============================ */
 a{
   color: #CE2180;
@@ -131,10 +130,6 @@ header {
 box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
 }
 
-header nav {
-  text-align: left;
-}
-
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -144,45 +139,29 @@ nav > ul > li {
   display: inline-block;
 }
 
-
 nav > ul > li >  a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: blue;       /*This doesn't work for some reason, the color of the navigation links doesn't change to blue */
+  color: #632680;
 }
 
 nav > ul > li> a:visited {
-  color: blue;
+  color: #632680;
 }
 
 nav > ul > li> a:hover, a:focus {
-  color: green;
+  color: #CE2180;
+}
+
+nav > ul > li> a:active {
+  color: #44DDCB;
 }
 
 nav {
   display: inline-block;
   width: 100%;
 }
-
-
- /*Or could I use this code instead of the one above to remove bullet points? It worked when used
-
-header nav ul {
-  list-style-type: none;
-}
-
-*/
-
-.center {
-  text-align: center;
-} /*Doesn't seem to work for Logo if I put "center" class there */
-
-.logo {
- text-align: center;
-} /*Doesn't seem to work for Logo */
-
-
 
 /* Main
 ==================================== */
@@ -193,15 +172,6 @@ header nav ul {
   width: 100%
 }
 
-
-.row {
-  margin: 25px 0;
-}
-
-#work .row {
-  padding-bottom: 25px; border-bottom: 1px solid #606060;
-}
-
 main {
   padding-top: 108px;
 }
@@ -209,7 +179,6 @@ main {
 ==================================== */
 #contact > .container {
   background-color: #ECFCFB;
-  padding:
 }
 
 .copyright {
@@ -223,4 +192,24 @@ main {
 =====================================*/
 .container {
   padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row {
+  padding-bottom: 25px; border-bottom: 1px solid #606060;
+}
+
+.center {
+  text-align: center;
+} /*Doesn't seem to work for Logo if I put "center" class there */
+
+.logo {
+ text-align: center;
+} /*Doesn't seem to work for Logo */
+
+header nav {
+  text-align: center;
 }
