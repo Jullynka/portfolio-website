@@ -113,13 +113,22 @@ a:active {
 ==================================== */
 header {
   background-color: #ECFCFB;
-  text-align: center;
+  text-align: center;  /* This seems enough to center the logo.*/
   padding: 10px 0;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+}
+
+.logo a{
+  font-size: 1.5em;
+  color: #632680;
+  text-decoration: none;
+  text-transform: underline;
+  font-weight: 600;
+  position: center;
 }
 
 nav>ul {
@@ -132,7 +141,7 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-  padding: 0 15px;
+  padding: 0 13px;
   text-transform: uppercase;
   font-weight: 600;
   color: #632680;
@@ -165,7 +174,7 @@ nav {
 }
 
 main {
-  padding-top: 136px;
+  padding-top: 123px;
 }
 
 /* Footer
@@ -197,16 +206,6 @@ main {
 }
 
 .center {
-  text-align: center;
-}
-
-/*Doesn't seem to work for Logo if I put "center" class there */
-.logo {
-  text-align: center;
-}
-
-/*Doesn't seem to work for Logo */
-header nav {
   text-align: center;
 }
 
