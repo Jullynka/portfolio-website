@@ -32,6 +32,8 @@ h2 {
   font-size: 1.5em;
   font-weight: 700;
   color: #474747;
+  margin: 0;
+  padding: 0.83em 0;
 }
 
 h3 {
@@ -212,8 +214,12 @@ footer {       /* I had this code there originally #contact>.container , but cha
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #606060;
+  margin-bottom: 25px;
 }
-
+#work .row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
 .center {
   text-align: center;
 }
@@ -223,15 +229,24 @@ footer {       /* I had this code there originally #contact>.container , but cha
 @media only screen and (min-width: 640px){
   header {
     text-align: unset;
-    padding: 20px 0 13px;
+    padding: 30px 0 23px;
+  }
+  .logo {
+    display: inline-block;
   }
   main {
-    padding-top: 146px;         /*  This seems to fix the spacing above the h1 element */``
+    padding-top: 98px;         /*  This seems to fix the spacing above the h1 element */``
   }
   nav {
     width: auto;
     float: right;
-    margin-top: 4px;
+    margin-top: 9px;
+  }
+  nav ul {
+    margin: 0;
+  }
+  #hero {
+    padding-top: 20px;
   }
   body {
     font-size: 17px;
@@ -241,6 +256,15 @@ footer {       /* I had this code there originally #contact>.container , but cha
   }
   [class*="col-"] {
     float:left;
+    padding: 0 10px;
+  }
+  .row {
+    margin: 0 -10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 }
 
