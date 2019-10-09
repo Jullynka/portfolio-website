@@ -168,7 +168,7 @@ nav {
 ==================================== */
 #hero {
   background-color: #ECFCFB;
-  padding: 20px 0;
+  padding:0 0 20px 0;           /*  padding: 20px 0;   doesn't work here, as it adds extra space above h1 */
   display: inline-block;
   width: 100%
 }
@@ -184,15 +184,14 @@ nav {
 }
 
 main {
-  padding-top: 146px;
+  padding-top: 123px;
 }
 
 /* Footer
 ==================================== */
-#contact>.container {
+footer {       /* I had this code there originally #contact>.container , but changed to footer instead  */
   background-color: #ECFCFB;
 }
-
 .copyright {
   display: inline-block;
   width: 100%;
@@ -226,6 +225,9 @@ main {
     text-align: unset;
     padding: 20px 0 13px;
   }
+  main {
+    padding-top: 146px;         /*  This seems to fix the spacing above the h1 element */``
+  }
   nav {
     width: auto;
     float: right;
@@ -235,7 +237,10 @@ main {
     font-size: 17px;
   }
   .col-md-6 {
-    width:50%;           finished here with the task (Columns)
+    width:50%;
+  }
+  [class*="col-"] {
+    float:left;
   }
 }
 
@@ -252,6 +257,8 @@ main {
 
 
 
+/*
+fot my own reference
 
 @media (min-width:768px) {
   body {
@@ -264,3 +271,5 @@ main {
     font-size: 19px;
   }
 }
+
+*/
