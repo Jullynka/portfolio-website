@@ -266,7 +266,12 @@ footer {       /* I had this code there originally #contact>.container , but cha
     clear: both;
     display: table;
   }
+  #about-page h3 {
+    margin-top: 0;
+  }
+
 }
+
 
 @media only screen and (min-width: 1024px) {
 
