@@ -175,6 +175,12 @@ nav {
 
 #hero span {
   display: block;
+  font-weight: 500;
+}
+
+#project-name span {
+  display: block;
+  font-weight: 500;
 }
 
 main {
@@ -227,6 +233,9 @@ main {
   }
   body {
     font-size: 17px;
+  }
+  .col-md-6 {
+    width:50%;           finished here with the task (Columns)
   }
 }
 
