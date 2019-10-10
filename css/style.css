@@ -269,7 +269,9 @@ footer {       /* I had this code there originally #contact>.container , but cha
   #about-page h3 {
     margin-top: 0;
   }
-
+  #about-page footer {
+    margin-top: 25px;
+  }
 }
 
 
