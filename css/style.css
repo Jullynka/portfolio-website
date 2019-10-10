@@ -201,12 +201,12 @@ footer {       /* I had this code there originally #contact>.container , but cha
 
 /* Containers & Columns
 ==================================== */
-/* Layout styling
-=====================================*/
 .container {
   padding: 0 15px;
 }
 
+/* Layout styling
+=====================================*/
 .row {
   margin: 25px 0;
 }
@@ -274,9 +274,21 @@ footer {       /* I had this code there originally #contact>.container , but cha
   }
 }
 
-
 @media only screen and (min-width: 1024px) {
-
+  body {
+    font-size: 18px;
+  }
+  .col-lg-7 {
+    width:58.33%;
+  }
+  .col-lg-5 {
+    width:41.66%;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
