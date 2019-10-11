@@ -81,6 +81,7 @@ a:active {
   border-bottom: 2px solid #632680;
   transition: 0.2s opacity;
   text-decoration: none;
+  transition: 0.2s opacity;
 }
 
 .button:hover {
