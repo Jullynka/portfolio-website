@@ -56,6 +56,7 @@ img {
 a {
   color: #CE2180;
   text-decoration: underline;
+  transition: 0.2s color;
 }
 
 a:visited {
@@ -143,11 +144,13 @@ nav>ul>li {
   display: inline-block;
 }
 
+
 nav>ul>li>a {
   padding: 0 13px;
   text-transform: uppercase;
   font-weight: 600;
   color: #632680;
+  transition: 0.2s color;
 }
 
 nav>ul>li>a:visited {
@@ -166,6 +169,8 @@ nav {
   display: inline-block;
   width: 100%;
 }
+
+
 
 /* Main
 ==================================== */
@@ -210,15 +215,20 @@ main {
   to {transform: translate(200px, 50px);}
 }
 .cloud-front {
- animation: 15s cloud-move infinite alternate linear;
+ animation: 10s cloud-move infinite alternate linear;
 }
+
 @keyframes cloud-move-reverse {
-  from {transform: translate (446px,48px);}
-  to {transform: translate (100px,48px);}
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
 }
 .cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+ animation: 30s cloud-move-reverse infinite alternate linear;
 }
+
+
+
+
 
 /* Footer
 ==================================== */
