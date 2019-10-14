@@ -40,7 +40,7 @@ h3 {
   font-size: 1.2em;
   font-weight: 600;
   color: #474747;
-margin: 0.83em 0;
+  margin: 0.83em 0;
 }
 
 h4 {
@@ -118,7 +118,8 @@ a:active {
 ==================================== */
 header {
   background-color: #ECFCFB;
-  text-align: center;  /* This seems enough to center the logo.*/
+  text-align: center;
+  /* This seems enough to center the logo.*/
   padding: 10px 0;
   position: fixed;
   width: 100%;
@@ -127,7 +128,7 @@ header {
   box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
 }
 
-.logo a{
+.logo a {
   font-size: 1.5em;
   color: #632680;
   text-decoration: none;
@@ -144,7 +145,6 @@ nav>ul {
 nav>ul>li {
   display: inline-block;
 }
-
 
 nav>ul>li>a {
   padding: 0 13px;
@@ -171,13 +171,11 @@ nav {
   width: 100%;
 }
 
-
-
 /* Main
 ==================================== */
 #hero {
   background-color: #ECFCFB;
-  padding:0 0 20px 0;           /*  padding: 20px 0;   doesn't work here, as it adds extra space above h1 */
+  padding: 0 0 20px 0;
   display: inline-block;
   width: 100%
 }
@@ -196,7 +194,6 @@ main {
   padding-top: 123px;
 }
 
-
 /* Main CSS Animation
 ==================================== */
 .berlin-illustration {
@@ -204,39 +201,59 @@ main {
   max-width: 100%;
   height: auto;
 }
+
 @keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {
+    fill: #edc655;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
 }
+
 .sun {
   animation: 4s color-change infinite alternate linear;
 }
+
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px, 50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
+
 .cloud-front {
- animation: 10s cloud-move infinite alternate linear;
+  animation: 10s cloud-move infinite alternate linear;
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
+
 .cloud-back {
- animation: 30s cloud-move-reverse infinite alternate linear;
+  animation: 30s cloud-move-reverse infinite alternate linear;
 }
-
-
-
-
 
 /* Footer
 ==================================== */
-footer {       /* I had this code there originally #contact>.container , but changed to footer instead  */
+footer {
   background-color: #ECFCFB;
 }
+
 .copyright {
   display: inline-block;
   width: 100%;
@@ -264,10 +281,12 @@ footer {       /* I had this code there originally #contact>.container , but cha
   border-bottom: 1px solid #606060;
   margin-bottom: 25px;
 }
+
 #work .row:last-child {
   border-bottom: none;
   margin-bottom: 0;
 }
+
 .center {
   text-align: center;
 }
@@ -287,53 +306,73 @@ footer {       /* I had this code there originally #contact>.container , but cha
 
 /* Media Queries
 =====================================*/
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding: 30px 0 23px;
   }
+
   .logo {
     display: inline-block;
   }
+
   main {
-    padding-top: 98px;         /*  This seems to fix the spacing above the h1 element */``
+    padding-top: 98px;
   }
+
   nav {
     width: auto;
     float: right;
     margin-top: 9px;
   }
+
   nav ul {
     margin: 0;
   }
+
   #hero {
     padding-top: 20px;
   }
+
   body {
     font-size: 17px;
   }
+
   .col-md-6 {
-    width:50%;
+    width: 50%;
   }
+
   [class*="col-"] {
-    float:left;
+    float: left;
     padding: 0 10px;
     margin-top: 25px;
-    }
-    [class*="col-"] h3 {
-      margin-top: 0;
-    }
+  }
+
+  [class*="col-"] h3 {
+    margin-top: 0;
+  }
+  .col-left {
+    padding-left: 0;
+  }
+
+  .col-right {
+    padding-right: 0;
+  }
+
   .row {
     margin: 0 -10px;
   }
+
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
+
   #about-page h3 {
     margin-top: 0;
   }
+
   #about-page footer {
     margin-top: 25px;
   }
@@ -343,12 +382,15 @@ footer {       /* I had this code there originally #contact>.container , but cha
   body {
     font-size: 18px;
   }
+
   .col-lg-7 {
-    width:58.33%;
+    width: 58.33%;
   }
+
   .col-lg-5 {
-    width:41.66%;
+    width: 41.66%;
   }
+
   .container {
     max-width: 1200px;
     margin-left: auto;
@@ -356,28 +398,4 @@ footer {       /* I had this code there originally #contact>.container , but cha
   }
 }
 
-@media only screen and (min-width: 1440px) {
-
-}
-
-
-
-
-
-
-/*
-fot my own reference
-
-@media (min-width:768px) {
-  body {
-    font-size: 18px;
-  }
-}
-
-@media (min-width:1200px) {
-  body {
-    font-size: 19px;
-  }
-}
-
-*/
+@media only screen and (min-width: 1440px) {}
