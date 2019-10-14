@@ -195,6 +195,7 @@ main {
   padding-top: 123px;
 }
 
+
 /* Main CSS Animation
 ==================================== */
 .berlin-illustration {
@@ -263,6 +264,24 @@ footer {       /* I had this code there originally #contact>.container , but cha
 }
 .center {
   text-align: center;
+}
+
+#index-page .row {
+  margin: 0px 0;
+}
+
+#about-page .row {
+  margin: 0px 0;
+}
+
+#about-page h2.center {
+  padding-bottom: 0;
+  margin-bottom: 0.83em;
+}
+
+#experte-page h2.center {
+  padding: 0 0;
+  margin: 0.83em;
 }
 
 /* Media Queries
