@@ -32,14 +32,15 @@ h2 {
   font-size: 1.5em;
   font-weight: 700;
   color: #474747;
-  margin: 0;
-  padding: 0.83em 0;
+  margin: 0.83em 0;
+  padding: 0 0;
 }
 
 h3 {
   font-size: 1.2em;
   font-weight: 600;
   color: #474747;
+margin: 0.83em 0;
 }
 
 h4 {
@@ -241,6 +242,11 @@ footer {       /* I had this code there originally #contact>.container , but cha
   width: 100%;
 }
 
+#contact h2 {
+  margin: 0;
+  padding: 0.83em 0;
+}
+
 /* Containers & Columns
 ==================================== */
 .container {
@@ -279,11 +285,6 @@ footer {       /* I had this code there originally #contact>.container , but cha
   margin-bottom: 0.83em;
 }
 
-#experte-page h2.center {
-  padding: 0 0;
-  margin: 0.83em;
-}
-
 /* Media Queries
 =====================================*/
 @media only screen and (min-width: 640px){
@@ -317,7 +318,11 @@ footer {       /* I had this code there originally #contact>.container , but cha
   [class*="col-"] {
     float:left;
     padding: 0 10px;
-  }
+    margin-top: 25px;
+    }
+    [class*="col-"] h3 {
+      margin-top: 0;
+    }
   .row {
     margin: 0 -10px;
   }
