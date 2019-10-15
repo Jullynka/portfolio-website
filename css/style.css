@@ -248,6 +248,31 @@ main {
   animation: 30s cloud-move-reverse infinite alternate linear;
 }
 
+
+/* This doesn't work, I tried to enclose my name "<span id="my-name">Katarina Roberts</span>", line 37 Index page;  for the purpose
+of the animation, I also tried to create a class, but that didn't work.
+When I enclose my name in <span> element the styling falls appart, so I removed it. I even tried to enclose the name in <section>
+and attach the animation to the section, but <section> also makes my name styling all broken.
+@keyframes color-name {
+  0% {
+    fill: pink;
+  }
+
+  50% {
+    fill: green;
+  }
+
+  100% {
+    fill: yellow;
+  }
+}
+
+#my-name {
+  animation: 4s color-name infinite alternate linear;
+}
+*/
+
+
 /* Footer
 ==================================== */
 footer {
