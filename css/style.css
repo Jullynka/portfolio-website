@@ -142,8 +142,10 @@ nav>ul>li>a {
   padding: 0 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #632680;
+  color: pink;
   transition: 0.2s color;
+  text-decoration:none;
+
 }
 
 nav>ul>li>a:visited {
