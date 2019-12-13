@@ -112,9 +112,8 @@ a:active {
 ==================================== */
 header {
   background-color: #ECFCFB;
-  text-align: center;
   /* This seems enough to center the logo.*/
-  padding: 10px 0;
+  padding: 10px 0 20px;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
@@ -132,11 +131,10 @@ header {
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav>ul>li {
-  display: inline-block;
-}
+
 
 nav>ul>li>a {
   padding: 0 13px;
@@ -160,9 +158,20 @@ nav>ul>li>a:active {
   color: #44DDCB;
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle  li .icon {
+  position:absolute;
+  right: 0;
+  top: 2px;
+  font-size: 30px;
+  padding-right: 0px;
 }
 
 /* Main
@@ -185,7 +194,7 @@ nav {
 }
 
 main {
-  padding-top: 123px;
+  padding-top: 63px;
 }
 
 /* Main CSS Animation
@@ -338,10 +347,10 @@ footer ul {
 
 /* Media Queries
 =====================================*/
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px) { /* should this be min width 641?.... 2.3, mobile nenu toggle*/
   header {
     text-align: unset;
-    padding: 30px 0 23px;
+    padding: 30px 0 30px;
   }
 
   .logo {
@@ -355,11 +364,22 @@ footer ul {
   nav {
     width: auto;
     float: right;
-    margin-top: 9px;
   }
 
-  nav ul {
-    margin: 0;
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   #hero {
