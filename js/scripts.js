@@ -1,3 +1,8 @@
+function menuToggle(){
+  var x=document.getElementById('myNavtoggle');
+  x.className+='responsive';
+}
+
 function myFunction() {
   var x = document.getElementById('myNavtoggle');
   if (x.className === 'navtoggle') {
