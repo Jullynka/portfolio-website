@@ -113,7 +113,7 @@ a:active {
 header {
   background-color: #ECFCFB;
   /* This seems enough to center the logo.*/
-  padding: 10px 0 20px;
+  padding: 10px 0;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
@@ -165,7 +165,7 @@ nav>ul>li>a:active {
 .navtoggle  li .icon {
   position:absolute;
   right: 0;
-  top: 2px;
+  top: -4px;
   font-size: 30px;
   padding-right: 0px;
 }
