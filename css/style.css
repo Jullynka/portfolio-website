@@ -177,7 +177,7 @@ nav>ul>li>a:active {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255, 127, 80,0.5);
+  border-top: 1px solid #632680
 }
 
 .navtoggle.responsive li:last-child {
@@ -381,7 +381,7 @@ footer ul {
   }
 
   nav > ul {
-    margin: 1em 0;
+    margin: 0.65em 0;
   }
 
   nav>ul>li {
@@ -395,6 +395,18 @@ footer ul {
   .navtoggle li:last-child {
     display: none;
   }
+
+
+  /* this is extra */
+  .navtoggle.responsive li {
+    padding: 0;
+    border-top: none;
+  }
+  /* this is extra */
+  .navtoggle.responsive nav {
+    padding: 0;
+  }
+
 
   #hero {
     padding-top: 20px;
