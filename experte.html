@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta  name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Katarina Roberts - UX/UI - Designer - Aberdeen / United Kingdom</title>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <script src="https://kit.fontawesome.com/a2a8fb0abb.js"></script>
   <link rel="stylesheet" href="path/to/fontawesome/css/fontawesome.min.css">
@@ -13,7 +13,7 @@
   <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
 </head>
 
 <body id="experte-page">
@@ -21,36 +21,41 @@
 
   <header>
     <div class="container">
-    <div class="navtoggle" id="myNavtoggle">
-      <div class="logo">
-         <a href="index.html">Katarina Roberts</a>
+      <div class="navtoggle" id="myNavtoggle">
+        <div class="logo">
+          <a href="index.html">Katarina Roberts</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-           <li><a href="index.html">Work</a></li>
-          <li> <a href="about.html">About</a></li>
-          <li> <a href="#contact" onclick="menuToggle()">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </nav>
-    </div>
     </div>
   </header>
 
-  <main><!--hero section-->
-    <div><!--whole section, orange-->
+  <main>
+    <!--hero section-->
+    <div>
+      <!--whole section, orange-->
 
-      <div class="container"><!--container, yellow 1-->
-      <div id="project-name">
-         <h1 class="center">Expert Advice App Design Concept<span>UX Case Study </span></h1>
-      </div>
+      <div class="container">
+        <!--container, yellow 1-->
+        <div id="project-name">
+          <h1 class="center">Expert Advice App Design Concept<span>UX Case Study </span></h1>
+        </div>
         <picture>
           <source srcset="img/experte/experte-600px.jpg" media="(max-width:767px)">
           <img src="img/experte/experte-1200px.jpg" alt="Experte App">
         </picture>
-      </div><!--container, yellow 1 end-->
+      </div>
+      <!--container, yellow 1 end-->
 
-      <div class="container"><!--container, yellow 2-->
+      <div class="container">
+        <!--container, yellow 2-->
         <div>
           <h1 class="center">My Process: The Double Diamond Strategy</h1>
           <p>During my time working on Experte, my individual project as part of Certified UX
@@ -60,9 +65,11 @@
           </p>
         </div>
 
-        <div><!--container, hatched 1-->
+        <div>
+          <!--container, hatched 1-->
           <h2>Discover</h2>
-          <div><!--container, white 1-->
+          <div>
+            <!--container, white 1-->
             <h3>1. Market Research</h3>
             <picture>
               <source srcset="img/experte/market-research-600px.png" media="(max-width:767px)">
@@ -75,9 +82,11 @@
               where the app should focus and also how I can improve the user experience of my product. After
               conducting Competitor Analysis I also conducted UX Analysis of the two applications.
             </p>
-          </div> <!--container, white 1, end-->
+          </div>
+          <!--container, white 1, end-->
 
-          <div><!--container white 2-->
+          <div>
+            <!--container white 2-->
             <h3>2. User Research</h3>
             <picture>
               <source srcset="img/experte/user-research-600px1.png" media="(max-width:767px)">
@@ -90,10 +99,13 @@
               of behaviours, attitudes, needs/ goals and frustrations, I conducted an Affinity Mapping exercise. I was
               able to see repetitive patterns, themes and overall trends emerging.
             </p>
-          </div><!--container white 2, end-->
-        </div><!--container, hatched 1, end-->
+          </div>
+          <!--container white 2, end-->
+        </div>
+        <!--container, hatched 1, end-->
 
-        <div><!--container, hatched 2-->
+        <div>
+          <!--container, hatched 2-->
 
           <h2>Define</h2>
           <div>
@@ -111,7 +123,7 @@
             <h3>2. User Jouney</h3>
             <picture>
               <source srcset="img/experte/user-journey-600px.jpg" media="(max-width:767px)">
-                <img src="img/experte/user-journey-1200px.jpg" alt="User Journey">
+              <img src="img/experte/user-journey-1200px.jpg" alt="User Journey">
             </picture>
             <p>Using the information from the interviews and User Personas I have put together User
               Journeys to help me understand what the users go through when searching and accessing our
@@ -130,9 +142,11 @@
               through the different screens</p>
           </div>
 
-        </div><!--container, hatched 2 end-->
+        </div>
+        <!--container, hatched 2 end-->
 
-        <div><!--container, hatched-->
+        <div>
+          <!--container, hatched-->
           <h2>Develop</h2>
           <div>
             <h3>1. Information Architecture</h3>
@@ -169,9 +183,11 @@
             </p>
           </div>
 
-        </div><!--container, hatched end-->
+        </div>
+        <!--container, hatched end-->
 
-        <div><!--container, hatched-->
+        <div>
+          <!--container, hatched-->
 
           <h2>Deliver</h2>
           <div>
@@ -234,12 +250,15 @@
             </p>
           </div>
 
-        </div><!--container, hatched end-->
+        </div>
+        <!--container, hatched end-->
 
-      </div><!--container, yellow 2 end-->
+      </div>
+      <!--container, yellow 2 end-->
 
 
-      <div class="container"><!--container yellow 3-->
+      <div class="container">
+        <!--container yellow 3-->
         <h1 class="center">Conclusion</h1>
 
         <div>
@@ -255,40 +274,46 @@
           </picture>
           <p>After creating and refining the MVP (Minimum Viable Product), I am ready to go back to
             the Use Research and finish designing other parts of the application. The design process is iterative
-             and should never stop.
-           </p>
+            and should never stop.
+          </p>
           <p>By using iterative design process I was able to keep refining the prototype from the feedback
             I received in the different stages of it.
           </p>
         </div>
 
-      </div><!--container yello 3 end-->
+      </div>
+      <!--container yello 3 end-->
 
 
-    </div><!--whole section, orange end-->
+    </div>
+    <!--whole section, orange end-->
 
 
   </main>
 
   <footer id="contact" class="center">
-      <div class="container"><!--container wrapper, yellow-->
-        <h2>Get in Touch</h2>
-        <p>Interested to talk? Do not hesitate to get in touch!</p><p>Call me on <a href="tel:+4474389028">+4474389028</a>
-           or Skype me at <a href="skype:hello.katarinarobertsux">hello.katarinarobertsux</a>.</p><p>Prefer sending
-           an email?
-        </p>
-        <div>
-           <a href="mailto:pretendemail@katarinarobertsux.com" class="button contact">Send email</a>
-        </div>
-        <div>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/katarina-roberts-63a7a2130/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-          </ul>
-        </div>
-        <p class="copyright">&copy;2019 Katarina Roberts</p>
-      </div><!--container wrapper, yellow, end-->
+    <div class="container">
+      <!--container wrapper, yellow-->
+      <h2>Get in Touch</h2>
+      <p>Interested to talk? Do not hesitate to get in touch!</p>
+      <p>Call me on <a href="tel:+4474389028">+4474389028</a>
+        or Skype me at <a href="skype:hello.katarinarobertsux">hello.katarinarobertsux</a>.</p>
+      <p>Prefer sending
+        an email?
+      </p>
+      <div>
+        <a href="mailto:pretendemail@katarinarobertsux.com" class="button contact">Send email</a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/katarina-roberts-63a7a2130/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+      <p class="copyright">&copy;2019 Katarina Roberts</p>
+    </div>
+    <!--container wrapper, yellow, end-->
   </footer>
-<script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

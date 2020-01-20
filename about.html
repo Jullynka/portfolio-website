@@ -3,55 +3,65 @@
 
 <head>
   <meta charset="utf-8">
-  <meta  name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Katarina Roberts - UX/UI - Designer - Aberdeen / United Kingdom</title>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <script src="https://kit.fontawesome.com/a2a8fb0abb.js"></script>
   <link rel="stylesheet" href="path/to/fontawesome/css/fontawesome.min.css">
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
 </head>
 
 <body id="about-page">
 
   <header>
     <div class="container">
-    <div class="navtoggle" id="myNavtoggle">
-      <div class="logo">
-         <a href="index.html">Katarina Roberts</a>
+      <div class="navtoggle" id="myNavtoggle">
+        <div class="logo">
+          <a href="index.html">Katarina Roberts</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-           <li><a href="index.html">Work</a></li>
-          <li> <a href="about.html">About</a></li>
-          <li> <a href="#contact" onclick="menuToggle()">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </nav>
     </div>
-  </div>
   </header>
 
-  <main><!--hero section-->
+  <main>
+    <!--hero section-->
 
-    <div><!--orange section, top-->
-      <div class="container"><!--yellow section, top-->
+    <div>
+      <!--orange section, top-->
+      <div class="container">
+        <!--yellow section, top-->
         <h1 class="center">About</h1>
-      </div>  <!--yellow section, top end-->
-    </div><!--orange section, top end-->
+      </div>
+      <!--yellow section, top end-->
+    </div>
+    <!--orange section, top end-->
 
-    <div><!--orange section, bottom-->   <!--1. added this-->
-      <div class="container"><!--yellow section, bottom-->
+    <div>
+      <!--orange section, bottom-->
+      <!--1. added this-->
+      <div class="container">
+        <!--yellow section, bottom-->
         <picture>
           <source srcset="img/my-photo-600px.jpg" media="(max-width:767px)">
           <img src="img/my-photo-1200px.jpg" alt="My photo">
         </picture>
-        <div class="row"><!--dark green, row for 2 columns-->
-          <div class="my-story"><!--turquoise, column 1-->
+        <div class="row">
+          <!--dark green, row for 2 columns-->
+          <div class="my-story">
+            <!--turquoise, column 1-->
             <h2 class="center">My Story</h2>
             <p>From my experience of being a freelance artist and also my part time carer’s job, I can empathise
               with people and provide user centric support by being able to put myself into their shoes. I believe that
@@ -69,12 +79,16 @@
               on expanding my skillset in that area as well.
             </p>
             <a href="files/katarina-roberts-cv.pdf" target="_blank" class="button">View my CV</a>
-          </div><!--turquoise, column 1 end-->
-          <div ><!--turquoise, column 2-->
+          </div>
+          <!--turquoise, column 1 end-->
+          <div>
+            <!--turquoise, column 2-->
             <h2 class="center">Skills & Tools</h2>
             <div class="bottom-padding-about
-            "><!--dark green, below Skills & Tools-->
-              <div class=" column col-md-6 col-left col-lg-7"><!--turqoise, relevant skills-->
+            ">
+              <!--dark green, below Skills & Tools-->
+              <div class=" column col-md-6 col-left col-lg-7">
+                <!--turqoise, relevant skills-->
                 <h3>Relevant Skills</h3>
                 <ul>
                   <li>User Centered Design</li>
@@ -89,8 +103,10 @@
                   <li>Developer Handoff</li>
                   <li>HTML</li>
                 </ul>
-              </div><!--turqoise, relevant skills end-->
-              <div class="column col-md-6 col-right col-lg-5"><!--turqoise, tools I use-->
+              </div>
+              <!--turqoise, relevant skills end-->
+              <div class="column col-md-6 col-right col-lg-5">
+                <!--turqoise, tools I use-->
                 <h3>Tools I use</h3>
                 <ul>
                   <li>Figma</li>
@@ -100,39 +116,49 @@
                   <li>Zeplin</li>
                   <li>MS Office</li>
                 </ul>
-              </div><!--turqoise, tools I use end-->
-            </div><!--dark green, below Skills & Tools end-->
-          </div><!--turquoise, column 2 end-->
+              </div>
+              <!--turqoise, tools I use end-->
+            </div>
+            <!--dark green, below Skills & Tools end-->
+          </div>
+          <!--turquoise, column 2 end-->
 
 
 
-        </div><!--dark green, row for 2 columns end-->
+        </div>
+        <!--dark green, row for 2 columns end-->
 
-      </div> <!--yellow section, bottom end-->
-    </div><!--orange section, bottom end-->
+      </div>
+      <!--yellow section, bottom end-->
+    </div>
+    <!--orange section, bottom end-->
 
 
   </main>
 
   <footer id="contact" class="center">
-      <div class="container"><!--container wrapper, yellow-->
-        <h2>Get in Touch</h2>
-        <p>Interested to talk? Do not hesitate to get in touch!</p><p>Call me on <a href="tel:+4474389028">+4474389028</a>
-           or Skype me at <a href="skype:hello.katarinarobertsux">hello.katarinarobertsux</a>.</p><p>Prefer sending
-           an email?
-        </p>
-        <div>
-           <a href="mailto:pretendemail@katarinarobertsux.com" class="button contact">Send email</a>
-        </div>
-        <div>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/katarina-roberts-63a7a2130/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-          </ul>
-        </div>
-        <p class="copyright">&copy;2019 Katarina Roberts</p>
-      </div><!--container wrapper, yellow, end-->
+    <div class="container">
+      <!--container wrapper, yellow-->
+      <h2>Get in Touch</h2>
+      <p>Interested to talk? Do not hesitate to get in touch!</p>
+      <p>Call me on <a href="tel:+4474389028">+4474389028</a>
+        or Skype me at <a href="skype:hello.katarinarobertsux">hello.katarinarobertsux</a>.</p>
+      <p>Prefer sending
+        an email?
+      </p>
+      <div>
+        <a href="mailto:pretendemail@katarinarobertsux.com" class="button contact">Send email</a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/katarina-roberts-63a7a2130/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+      <p class="copyright">&copy;2019 Katarina Roberts</p>
+    </div>
+    <!--container wrapper, yellow, end-->
   </footer>
-<script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
