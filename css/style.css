@@ -209,6 +209,10 @@ main {
   padding-top: 63px;
 }
 
+#hidden-button {
+  visibility:hidden;
+}
+
 /* Main CSS Animation
 ==================================== */
 .berlin-illustration {
