@@ -211,7 +211,7 @@ main {
 }
 
 #hidden-button {
-  visibility:hidden;
+  visibility:visible;
 }
 
 /* Main CSS Animation
